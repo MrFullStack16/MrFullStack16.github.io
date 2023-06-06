@@ -1,41 +1,84 @@
 header{
     font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 5px solid rgb(176, 210, 255);
 }
-img{
-    margin-left: 25%;
-}
-.container div{
-    background-image: "chatgpt.jpg";
-    background-repeat: no-repeat;
+.bandas div{
     padding: 20px;
 }
-.container div:hover{
-    border: 2px solid blue;
+.Charly div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    hyphens: inherit;
+    color: aliceblue;
 }
-.container{
+
+.bandas div:hover{
+    border: 2px solid rgb(146, 206, 255);
+}
+.bandas{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-    text-align: center
-}
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-}
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    
 
+}
+body{
+    background-color: black;
+}
+.Álbumes div:hover{
+    border: 2px solid rgb(146, 206, 255);
 
+}
+.Álbumes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.Albumes div{
+    padding: 20px;
+}
 footer{
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-style: oblique;
+}
+.clics{
+    float: right;
+    margin-bottom: 10%;
+
+}
+.piano{
+    float: right;
+    margin-bottom: 10%;
+}
+.parte{
+    float: right;
+    margin-bottom: 10%;
+}
+
+.yendo{
+    float: right;
+    margin-bottom: 10%;
+}
+ol{
+
+    color: whitesmoke;
+    font-style: inherit;
+}
+li{
+    margin-top: 0;
+    margin-bottom: 15px;
 }
