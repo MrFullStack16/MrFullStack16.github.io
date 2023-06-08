@@ -1,10 +1,10 @@
 header{
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    border: 5px solid rgb(176, 210, 255);
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border: 5px solid aliceblue;
 }
 .bandas div{
     padding: 20px;
@@ -12,49 +12,51 @@ header{
 .Charly div{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     hyphens: inherit;
-    color: aliceblue;
-    margin: 5%;
+    color: black;
+    
 }
 
 .bandas div:hover{
-    border: 2px solid rgb(146, 206, 255);
+    border: 3px solid rgb(255, 255, 255);
 }
 .bandas{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    color: aliceblue;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5%;
 }
 h2{
     font-size: 30px;
     font-style: normal;
-    color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 body{
-    background-color: black;
+    background: linear-gradient(#70e2ff,#ffde70, #52ff9a, #ff5555);
 }
 .Álbumes div:hover{
-    border: 2px solid rgb(146, 206, 255);
+    border: 3px solid rgb(255, 255, 255);
 
 }
 .Álbumes{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    color: aliceblue;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Albumes div{
     padding: 15px;
 }
 footer{
-    color: rgb(255, 255, 255);
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-style: oblique;
-    margin: 5%;
+    margin-top: 5%;
 }
 .clics{
     float: right;
@@ -76,10 +78,13 @@ footer{
 }
 ol{
 
-    color: whitesmoke;
-    font-style: inherit;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 li{
     margin-top: 0;
     margin-bottom: 15px;
+
+
 }
