@@ -1,0 +1,137 @@
+header{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border: 5px solid aliceblue;
+}
+.bandas div{
+    padding: 20px;
+}
+.Charly div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    hyphens: inherit;
+    color: black;
+    
+}
+
+.bandas div:hover{
+    border: 3px solid rgb(255, 255, 255);
+}
+.bandas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5%;
+}
+h2{
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+    background: linear-gradient(#28b2ff,#68ff53, #e8ff49, #ff8474, #e33cff);
+}
+.Álbumes div:hover{
+    border: 3px solid rgb(255, 255, 255);
+
+}
+.Álbumes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Albumes div{
+    padding: 15px;
+}
+footer{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 5%;
+}
+.clics{
+    float: right;
+    margin-bottom: 10%;
+
+}
+.piano{
+    float: right;
+    margin-bottom: 10%;
+}
+.parte{
+    float: right;
+    margin-bottom: 10%;
+}
+
+.yendo{
+    float: right;
+    margin-bottom: 10%;
+}
+ol{
+
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+li{
+    margin-top: 0;
+    margin-bottom: 15px;
+
+
+}
+button#reproducirBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #af4caa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#reproducirBtn:hover {
+    background-color: #6c45a0;
+  }
+  button#reproducirAlbumClicsModernos{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4e4e4e;
+    color: #fff;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: 3%;
+    transition: background-color 0.3s ease;
+  }
+  button#reproducirBtn:hover {
+    background-color: #45a049;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-media-icons {
+    margin-top: 10px;
+  }
+  
+  .social-media-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
