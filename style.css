@@ -1,62 +1,62 @@
-header{
-    font-size: 50px;
-    color: black;
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 15px;
-    border: 5px solid aliceblue;
-}
+header {
+    font-size: 60px; /* Cambiar a tu tamaño preferido */
+    color: white; /* Cambiar a tu color preferido */
+    text-align: center; /* Centrar el texto en el encabezado */
+    margin-top: 35px; /* Ajustar el margen superior del encabezado */
+    margin-bottom: 15px; /* Ajustar el margen inferior del encabezado */
+    padding: 20px; /* Ajustar el espaciado interno del encabezado */
+    border: 5px solid rgb(255, 208, 0); /* Agregar un borde alrededor del encabezado */
+    border-radius: 10px; /* Redondear las esquinas del encabezado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agregar una sombra alrededor del encabezado */
+  }
+  
 .bandas div{
     padding: 20px;
 }
-.Charly div{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    hyphens: inherit;
-    color: black;
-    
-}
 
 .bandas div:hover{
-    border: 3px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
 }
 .bandas{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: "Arial", sans-serif; 
     margin: 5%;
 }
-h2{
-    font-size: 30px;
-    font-style: normal;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-}
+h2 {
+    font-family: "Arial", sans-serif; /* Cambiar a tu fuente preferida */
+    font-weight: 700; /* Cambiar el peso de la fuente (normal, bold, etc.) */
+    font-style: normal; /* Aplicar estilo de fuente normal */
+    text-decoration: none; /* Quitar decoración de texto (subrayado, etc.) */
+    color: whitesmoke; /* Cambiar a tu color preferido */
+    font-size: 26px; /* Cambiar a tu tamaño preferido */
+    line-height: 1.2; /* Ajustar el espaciado entre líneas */
+    letter-spacing: 0.5px; /* Ajustar el espaciado entre letras */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
 body{
-    background: linear-gradient(#28b2ff,#68ff53, #e8ff49, #ff8474, #e33cff);
+    background-color: black;
+}
+.Albumes{
+    padding: 30px;
 }
 .Álbumes div:hover{
-    border: 3px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
 
 }
 .Álbumes{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.Albumes div{
-    padding: 15px;
-}
-footer{
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-style: oblique;
-    margin-top: 5%;
+    color: rgb(255, 255, 255);
+
 }
 .clics{
     float: right;
@@ -78,9 +78,8 @@ footer{
 }
 ol{
 
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    color: rgb(255, 187, 0);
+    font-family: "Arial", sans-serif; 
 }
 li{
     margin-top: 0;
@@ -88,43 +87,36 @@ li{
 
 
 }
-button#reproducirBtn {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #af4caa;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+
   
-  button#reproducirBtn:hover {
-    background-color: #6c45a0;
-  }
+
   button#reproducirAlbumClicsModernos{
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4e4e4e;
     color: #fff;
     border: 2px solid white;
+    border-radius: 5px;
     cursor: pointer;
     margin-left: 3%;
     transition: background-color 0.3s ease;
+    font-family: "Arial", sans-serif;
+
   }
-  button#reproducirBtn:hover {
-    background-color: #45a049;
+  button#reproducirAlbumPianoBar{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffae00;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 3%;
+    transition: background-color 0.3s ease;
+    font-family: "Arial", sans-serif;
+
   }
-  footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
   
   .social-media-icons {
     margin-top: 10px;
@@ -139,17 +131,39 @@ button#reproducirBtn {
     display: flex;
     width: 600px;
     height: 430px;
+    padding: 15px;
   }
   section img{
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
-    transition: .5s ease;
-  }
+    transition: width 0.5s ease, opacity 0.5s ease; /* Añadir transición a la animación */
+}
   section img:hover{
     cursor: crosshair;
     width: 300px;
     opacity: 1;
-    fill: contrast(120%);
+    filter: contrast(120%); /* Cambiar a filtro de contraste */
   }
+  
+    p {
+        line-height: 1.5; /* Ajustar el espaciado entre líneas */
+        letter-spacing: 0.5px; /* Ajustar el espaciado entre letras */
+        font-family: "Arial", sans-serif; /* Cambiar a tu fuente preferida */
+        font-weight: 400; /* Cambiar el peso de la fuente (normal, bold, etc.) */
+        font-style: italic; /* Aplicar estilo de fuente cursiva */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        color: whitesmoke;
+      }
+      p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Agregar sombra al texto */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra alrededor del párrafo */
+      }
+      
+      
+  
