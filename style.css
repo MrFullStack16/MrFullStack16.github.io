@@ -60,32 +60,31 @@ body{
 }
 .clics{
     float: right;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 
 }
 .piano{
     float: right;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 .parte{
     float: right;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .yendo{
     float: right;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 ol{
 
-    color: rgb(255, 187, 0);
+    color: rgb(255, 255, 100);
     font-family: "Arial", sans-serif; 
+    font-size: 16px;
 }
 li{
     margin-top: 0;
-    margin-bottom: 15px;
-
-
+    margin-bottom: 20px;
 }
 
   
@@ -133,23 +132,13 @@ button#reproducirAlbumYendoDeLaCamaAlLiving{
 font-size: 16px;
 background-color: #000000;
 color: #ffffff;
-border: 2px solid rgb(255, 89, 0);
+border: 2px solid rgb(255, 250, 97);
 border-radius: 5px;
 cursor: pointer;
 margin-left: 3%;
 transition: background-color 0.3s ease;
 font-family: "Arial", sans-serif;
 }
-  
-  .social-media-icons {
-    margin-top: 10px;
-  }
-  
-  .social-media-icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
-  }
   section{
     display: flex;
     width: 600px;

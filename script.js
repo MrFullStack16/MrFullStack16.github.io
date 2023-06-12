@@ -2,11 +2,10 @@ window.onload = function() {
   var reproducirAlbumClicsModernos = document.getElementById('reproducirAlbumClicsModernos');
   var reproducirAlbumPianoBar = document.getElementById('reproducirAlbumPianoBar');
   var reproducirAlbumParteDeLaReligion = document.getElementById('reproducirAlbumParteDeLaReligion')
-  var reproducirAlbumYendoDeLaCamaAlLiving = document.getElementById('reproducirAlbumYendoDeLaCamaAlLiving')
   var audio_PianoBar = new Audio('PianoBar_Album.mp3'); // Reemplaza 'ruta_de_tu_cancion.mp3' con la ruta a tu archivo MP3
   var audio_album = new Audio('album.mp3');
   var audio_ParteDeLaReligion = new Audio('Charly García - Parte de la religión (1987) (Álbum Completo).mp3')
-  var audio_YendoDeLaCamaAlLiving = new Audio('Pubis Angelical  Yendo De La Cama Al Living.mp3')
+  
 
   reproducirAlbumClicsModernos.onclick = function() {
       if (audio_album.paused) {
