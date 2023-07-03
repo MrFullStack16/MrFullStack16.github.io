@@ -1,181 +1,235 @@
 header {
-    font-size: 60px; /* Cambiar a tu tamaño preferido */
-    color: white; /* Cambiar a tu color preferido */
-    text-align: center; /* Centrar el texto en el encabezado */
-    margin-top: 35px; /* Ajustar el margen superior del encabezado */
-    margin-bottom: 15px; /* Ajustar el margen inferior del encabezado */
-    padding: 20px; /* Ajustar el espaciado interno del encabezado */
-    border: 5px solid rgb(255, 208, 0); /* Agregar un borde alrededor del encabezado */
-    border-radius: 10px; /* Redondear las esquinas del encabezado */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agregar una sombra alrededor del encabezado */
-  }
-  
-.bandas div{
-    padding: 20px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 5px solid rgb(255, 208, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.texto{
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  color: whitesmoke;
+}
+.bandas div {
+  padding: 20px;
 }
 
-.bandas div:hover{
-    border: 2px solid rgb(255, 255, 255);
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
 }
-.bandas{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px;
-    color: rgb(255, 255, 255);
-    font-family: "Arial", sans-serif; 
-    margin: 5%;
+
+.bandas div:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+
+.bandas {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Arial", sans-serif;
+  margin: 5%;
+}
+
+.banda-abajo-grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.banda-grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
-    font-family: "Arial", sans-serif; /* Cambiar a tu fuente preferida */
-    font-weight: 700; /* Cambiar el peso de la fuente (normal, bold, etc.) */
-    font-style: normal; /* Aplicar estilo de fuente normal */
-    text-decoration: none; /* Quitar decoración de texto (subrayado, etc.) */
-    color: whitesmoke; /* Cambiar a tu color preferido */
-    font-size: 26px; /* Cambiar a tu tamaño preferido */
-    line-height: 1.2; /* Ajustar el espaciado entre líneas */
-    letter-spacing: 0.5px; /* Ajustar el espaciado entre letras */
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-body{
-    background-color: black;
-}
-.Albumes{
-    padding: 30px;
-}
-.Álbumes div:hover{
-    border: 2px solid rgb(255, 255, 255);
-
-}
-.Álbumes{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px;
-    color: rgb(255, 255, 255);
-
-}
-.clics{
-    float: right;
-    margin-bottom: 15%;
-
-}
-.piano{
-    float: right;
-    margin-bottom: 15%;
-}
-.parte{
-    float: right;
-    margin-bottom: 15%;
+  font-family: "Arial", sans-serif;
+  /* Cambiar a tu fuente preferida */
+  font-weight: 700;
+  /* Cambiar el peso de la fuente (normal, bold, etc.) */
+  font-style: normal;
+  /* Aplicar estilo de fuente normal */
+  text-decoration: none;
+  /* Quitar decoración de texto (subrayado, etc.) */
+  color: whitesmoke;
+  /* Cambiar a tu color preferido */
+  font-size: 26px;
+  /* Cambiar a tu tamaño preferido */
+  line-height: 1.2;
+  /* Ajustar el espaciado entre líneas */
+  letter-spacing: 0.5px;
+  /* Ajustar el espaciado entre letras */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.yendo{
-    float: right;
-    margin-bottom: 15%;
-}
-ol{
-
-    color: rgb(255, 255, 100);
-    font-family: "Arial", sans-serif; 
-    font-size: 16px;
-}
-li{
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-  
-
-  button#reproducirAlbumClicsModernos{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4e4e4e;
-    color: #fff;
-    border: 2px solid white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 3%;
-    transition: background-color 0.3s ease;
-    font-family: "Arial", sans-serif;
-
-  }
-  button#reproducirAlbumPianoBar{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #ffae00;
-    color: #ffffff;
-    border: 2px solid white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 3%;
-    transition: background-color 0.3s ease;
-    font-family: "Arial", sans-serif;
-
-  }
-  button#reproducirAlbumParteDeLaReligion{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #000000;
-    color: #ffffff;
-    border: 2px solid rgb(255, 89, 0);
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 3%;
-    transition: background-color 0.3s ease;
-    font-family: "Arial", sans-serif;
-  }
-button#reproducirAlbumYendoDeLaCamaAlLiving{
-  padding: 10px 20px;
-font-size: 16px;
+body {
 background-color: #000000;
-color: #ffffff;
-border: 2px solid rgb(255, 250, 97);
-border-radius: 5px;
-cursor: pointer;
-margin-left: 3%;
-transition: background-color 0.3s ease;
-font-family: "Arial", sans-serif;
 }
-  section{
-    display: flex;
-    width: 600px;
-    height: 430px;
-    padding: 15px;
-  }
-  section img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: width 0.5s ease, opacity 0.5s ease; /* Añadir transición a la animación */
+
+.Albumes {
+  padding: 30px;
 }
-  section img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%); /* Cambiar a filtro de contraste */
-  }
-  
-    p {
-        line-height: 1.5; /* Ajustar el espaciado entre líneas */
-        letter-spacing: 0.5px; /* Ajustar el espaciado entre letras */
-        font-family: "Arial", sans-serif; /* Cambiar a tu fuente preferida */
-        font-weight: 400; /* Cambiar el peso de la fuente (normal, bold, etc.) */
-        font-style: italic; /* Aplicar estilo de fuente cursiva */
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 16px;
-        color: whitesmoke;
-      }
-      p {
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Agregar sombra al texto */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra alrededor del párrafo */
-      }
-      
-      
-  
+
+.Álbumes div:hover {
+  border: 2px solid rgb(255, 255, 255);
+
+}
+
+.Álbumes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  color: rgb(255, 255, 255);
+
+}
+
+.clics {
+  float: right;
+  margin-bottom: 15%;
+
+}
+
+.piano {
+  float: right;
+  margin-bottom: 15%;
+}
+
+.parte {
+  float: right;
+  margin-bottom: 15%;
+}
+
+.yendo {
+  float: right;
+  margin-bottom: 15%;
+}
+
+ol {
+
+  color: rgb(255, 255, 100);
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+li {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+
+button#reproducirAlbumClicsModernos {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4e4e4e;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3%;
+  transition: background-color 0.3s ease;
+  font-family: "Arial", sans-serif;
+
+}
+
+button#reproducirAlbumPianoBar {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffae00;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3%;
+  transition: background-color 0.3s ease;
+  font-family: "Arial", sans-serif;
+
+}
+
+button#reproducirAlbumParteDeLaReligion {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid rgb(255, 89, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3%;
+  transition: background-color 0.3s ease;
+  font-family: "Arial", sans-serif;
+}
+
+button#reproducirAlbumYendoDeLaCamaAlLiving {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid rgb(255, 250, 97);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3%;
+  transition: background-color 0.3s ease;
+  font-family: "Arial", sans-serif;
+}
+
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+  padding: 15px;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: width 0.5s ease, opacity 0.5s ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
